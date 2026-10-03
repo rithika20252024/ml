@@ -1,0 +1,43 @@
+# Output files (too large for GitHub, regenerate by running pipeline)
+output/
+submission.zip
+
+# Dataset (provided by competition, not redistributable)
+dataset/
+
+# Scratch / dev files
+scratch/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# AWS credentials (NEVER commit these)
+.aws/
+*.pem
+*.key
